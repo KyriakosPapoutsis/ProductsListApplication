@@ -1,4 +1,4 @@
-# ProductsListApplication - Android App 
+# ProductKeeper - Android App for Browsing Products, Managing Wishlists, Purchases, and Reviews.
 
 This Android application showcases a complete product catalog system with Firebase integration, user authentication, product browsing, reviews, wishlists, and purchase management.
 
@@ -17,7 +17,7 @@ Department of Digital Systems, University of Piraeus
 - Register and log in using Firebase Authentication
 - Email-based login system
 
-### 🛍 Product Catalog
+### 🛍️ Product Catalog
 - Browse a collection of products with:
   - Name, description, price, discount, image
   - Specifications (size, color, material, etc.)
@@ -64,17 +64,63 @@ Department of Digital Systems, University of Piraeus
 
 ---
 
-## 🖼 Screenshots
+## 📱 Screenshots
 
-```markdown
-### 📸 Home Screen
-![Home](screenshots/home.png)
+Below are selected screenshots from the **ProductKeeper** app, showcasing its main features, UI, and product listing system.
 
-### 🛍 Product Catalog
-![Catalog](screenshots/catalog.png)
+> The app includes over 20 unique views and components.  
+> For clarity, screenshots are grouped by category.
 
-### ⭐ Reviews
-![Reviews](screenshots/reviews.png)
+---
 
+### 🔐 Sign In & Register
+<p align="center">
+  <img src="docs/screenshots/signin.png" width="200" />
+  <img src="docs/screenshots/signin-invalidpassword.png" width="200" />
+  <img src="docs/screenshots/signin-usedemail.png" width="200" />
+  <img src="docs/screenshots/registration.png" width="200" />
+</p>
 
+---
+
+### 🏠 Homepage & Filtering
+<p align="center">
+  <img src="docs/screenshots/homepage-1.png" width="200" />
+  <img src="docs/screenshots/homepage-2.png" width="200" />
+  <img src="docs/screenshots/homepage-3.png" width="200" />
+  <img src="docs/screenshots/homepage-4.png" width="200" />
+  <img src="docs/screenshots/homepage-5.png" width="200" />
+  <img src="docs/screenshots/homepage-6.png" width="200" />
+  <img src="docs/screenshots/homepage-7.png" width="200" />
+  <img src="docs/screenshots/homepage-8.png" width="200" />
+  <img src="docs/screenshots/filtering.png" width="200" />
+</p>
+
+---
+
+### 🔍 Search Functionality
+<p align="center">
+  <img src="docs/screenshots/search-1.png" width="200" />
+  <img src="docs/screenshots/search-2.png" width="200" />
+  <img src="docs/screenshots/search-3.png" width="200" />
+  <img src="docs/screenshots/search-4.png" width="200" />
+  <img src="docs/screenshots/search-5.png" width="200" />
+  <img src="docs/screenshots/search-6.png" width="200" />
+</p>
+
+---
+
+### 🛍️ Products List, Wishlist & Reviews
+<p align="center">
+  <img src="docs/screenshots/productslist.png" width="200" />
+  <img src="docs/screenshots/wishlist.png" width="200" />
+  <img src="docs/screenshots/reviews-1.png" width="200" />
+  <img src="docs/screenshots/reviews-2.png" width="200" />
+  <img src="docs/screenshots/reviews-3.png" width="200" />
+  <img src="docs/screenshots/reviews-4.png" width="200" />
+</p>
+
+---
+
+Contact: kyriakosiam@outlook.com
 
