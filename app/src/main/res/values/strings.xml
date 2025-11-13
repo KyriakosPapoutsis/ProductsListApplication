@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">ProductsListApplication</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+        <!-- Other string resources -->
+
+    <string-array name="filter_options">
+        <item>All</item>
+        <item>Electronics</item>
+        <item>Toys</item>
+        <item>Books</item>
+        <item>Kitchen</item>
+        <item>Home</item>
+        <item>Beauty</item>
+        <item>Sports</item>
+        <item>Clothing</item>
+        <item>Video Games</item>
+        <item>Pets</item>
+    </string-array>
+
+    <string-array name="price_ranges">
+        <item>Price</item>
+        <item>$1000+</item>
+        <item>$500 - $1000</item>
+        <item>$100 - $500</item>
+        <item>$0 - $100</item>
+    </string-array>
+
+    <string-array name="brand_names">
+        <item>Brand</item>
+        <item>Activision</item>
+        <item>Amazon</item>
+        <item>Apple</item>
+        <item>Blizzard</item>
+        <item>EA</item>
+        <item>Gucci</item>
+        <item>Hasbro</item>
+        <item>Hondos Center</item>
+        <item>IKEA</item>
+        <item>Jordan</item>
+        <item>Kenwood</item>
+        <item>Kylie Cosmetics</item>
+        <item>LG</item>
+        <item>Louis Vuitton</item>
+        <item>Mattel</item>
+        <item>Nike</item>
+        <item>Oral-B</item>
+        <item>PetCo</item>
+        <item>Samsung</item>
+        <item>Supreme</item>
+
+    </string-array>
+
+    <string name="rating_value">Rating: %.1f</string>
+
+    <string name="discount_text">-%d%%</string>
+    <string name="registration_success_message">Registration Successful!</string>
+    <string name="add_to_wishlist">ADD TO WISHLIST</string>
+    <string name="read_reviews">READ REVIEWS</string>
+
+</resources>

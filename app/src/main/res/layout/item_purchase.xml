@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <!-- TextView for Purchase Name -->
+    <TextView
+        android:id="@+id/textViewPurchaseName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- TextView for Purchase Quantity -->
+    <TextView
+        android:id="@+id/textViewPurchaseQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Quantity: "
+        android:textSize="14sp" />
+
+    <!-- LinearLayout for Update, Slider, and Delete Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:text="Update"
+            android:textColor="@android:color/white" />
+
+        <!-- Slider for selecting quantity -->
+        <com.google.android.material.slider.Slider
+            android:id="@+id/sliderQuantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="Quantity slider"
+            android:stepSize="1"
+            android:value="1"
+            android:valueFrom="1"
+            android:valueTo="10" />
+
+        <Button
+            android:id="@+id/buttonDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_red_dark"
+            android:text="Delete"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+</LinearLayout>

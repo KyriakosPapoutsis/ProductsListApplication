@@ -1,0 +1,23 @@
+# IDE files
+*.iml
+.idea/
+
+# Gradle
+.gradle/
+**/build/
+
+# MacOS Finder
+.DS_Store
+
+# Local configuration
+local.properties
+
+# Google Services (Firebase)
+google-services.json
+
+# Native and external builds
+.externalNativeBuild/
+.cxx/
+
+# Captures folder
+captures/

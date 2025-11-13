@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#DE5336</color>           <!-- Primary color for app bar, etc. -->
+    <color name="colorPrimaryDark">#DE5336</color>       <!-- Dark variant of primary color -->
+    <color name="colorAccent">#4CAF50</color>            <!-- Accent color for buttons, etc. -->
+    <color name="colorSurface">#FFFFFF</color>           <!-- Surface color (background) -->
+    <color name="colorOnSurface">#000000</color>         <!-- Color on surface (text color on background) -->
+    <color name="colorError">#B00020</color>             <!-- Error color -->
+
+</resources>

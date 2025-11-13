@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/productCatalogFragment">
+
+    <fragment
+        android:id="@+id/productCatalogFragment"
+        android:name="com.example.productslistapplication.ProductCatalogFragment"
+        android:label="Product Catalog">
+        <action
+            android:id="@+id/action_productCatalogFragment_to_purchasesListFragment"
+            app:destination="@id/purchasesListFragment" />
+        <action
+            android:id="@+id/action_productCatalogFragment_to_readReviewsFragment"
+            app:destination="@id/readReviewsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/purchasesListFragment"
+        android:name="com.example.productslistapplication.PurchasesListFragment"
+        android:label="Purchases List">
+        <action
+            android:id="@+id/action_purchasesListFragment_to_wishlistFragment"
+            app:destination="@id/wishlistFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/wishlistFragment"
+        android:name="com.example.productslistapplication.WishlistFragment"
+        android:label="Wishlist">
+        <action
+            android:id="@+id/action_wishlistFragment_to_reviewsFragment"
+            app:destination="@id/reviewsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/reviewsFragment"
+        android:name="com.example.productslistapplication.ReviewsFragment"
+        android:label="Reviews">
+        <action
+            android:id="@+id/action_reviewsFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.productslistapplication.ProfileFragment"
+        android:label="Profile" />
+
+    <!-- New ReadReviewsFragment -->
+    <fragment
+        android:id="@+id/readReviewsFragment"
+        android:name="com.example.productslistapplication.ReadReviewsFragment"
+        android:label="Read Reviews">
+        <argument
+            android:name="productName"
+            app:argType="string" />
+    </fragment>
+</navigation>

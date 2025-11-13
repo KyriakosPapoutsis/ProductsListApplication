@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ReviewsFragment">
+
+    <!-- Header Section: Logo and Title -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:contentDescription="Company Logo"
+            android:src="@drawable/imagelogo6"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Review Creator"
+            android:layout_marginStart="62dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+    </LinearLayout>
+
+    <!-- Spinner for selecting a purchase -->
+    <Spinner
+        android:id="@+id/spinnerPurchases"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:padding="12dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Select Purchase"
+        android:hint="Select a purchase"/>
+
+    <!-- RatingBar for rating the product -->
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="Rating"
+        android:numStars="5"
+        android:progressTint="#FFE500"
+        android:secondaryProgressTint="@color/material_dynamic_neutral10"
+        android:progressBackgroundTint="@color/material_dynamic_neutral10"
+        android:rating="0.0"
+        android:stepSize="0.1" />
+
+    <!-- TextView to display the selected rating -->
+    <TextView
+        android:id="@+id/ratingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/rating_value"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp" />
+
+    <!-- EditText for entering the review text -->
+    <EditText
+        android:id="@+id/editTextReview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Write your review here..."
+        android:inputType="textMultiLine"
+        android:gravity="top"/>
+
+    <!-- Button to submit the review -->
+    <Button
+        android:id="@+id/buttonSubmitReview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit Review"
+        android:textColor="#FFFFFF"
+        android:contentDescription="Submit Review"/>
+
+</LinearLayout>

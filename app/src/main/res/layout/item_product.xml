@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <!-- ImageView for Product Image -->
+    <ImageView
+        android:id="@+id/imageViewProduct"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter" />
+
+    <!-- Product Name TextView -->
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Product Description TextView -->
+    <TextView
+        android:id="@+id/textViewDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Description: " />
+
+
+    <!-- Horizontal LinearLayout for Price and Discount -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textViewPrice"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Price: "
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textViewDiscount"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="#B00020"
+            android:paddingStart="8dp"
+            android:text="@string/discount_text"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <!-- Reviews TextView -->
+    <TextView
+        android:id="@+id/textViewReviews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Reviews: "
+        android:textSize="14sp" />
+
+    <!-- Specifications TextView -->
+    <TextView
+        android:id="@+id/textViewSpecifications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Specifications: "
+        android:textSize="14sp" />
+
+    <!-- Size TextView -->
+    <TextView
+        android:id="@+id/textViewSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Size: "
+        android:textSize="14sp" />
+
+    <!-- Color TextView -->
+    <TextView
+        android:id="@+id/textViewColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Color: "
+        android:textSize="14sp" />
+
+    <!-- Availability TextView -->
+    <TextView
+        android:id="@+id/textViewAvailability"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Availability: "
+        android:textSize="14sp" />
+
+    <!-- LinearLayout for Buy Button and Quantity Slider -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btnBuy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onBuyButtonClick"
+            android:text="ADD TO LIST"
+            android:textColor="#FFFFFF" />
+
+        <!-- Slider for selecting quantity -->
+        <com.google.android.material.slider.Slider
+            android:id="@+id/sliderQuantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="Quantity slider"
+            android:stepSize="1"
+            android:value="1"
+            android:valueFrom="1"
+            android:valueTo="10" />
+
+
+    </LinearLayout>
+
+    <!-- LinearLayout for Wishlist and Reviews Buttons -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Wishlist Button -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:background="?attr/selectableItemBackground"
+            android:backgroundTint="#DE5336">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btnWish"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="#DE5336"
+                    android:contentDescription="ADD TO WISHLIST"
+                    android:src="@drawable/ic_heart_outline" />
+
+                <TextView
+                    android:id="@+id/btnWishText"
+                    android:layout_width="70dp"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="6dp"
+                    android:clickable="true"
+                    android:text="@string/add_to_wishlist"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Reviews Button -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="?attr/selectableItemBackground"
+            android:backgroundTint="#DE5336">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btnReviews"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="#DE5336"
+                    android:contentDescription="ADD TO WISHLIST"
+                    android:src="@drawable/ic_read_reviews" />
+
+                <TextView
+                    android:id="@+id/btnReviewsText"
+                    android:layout_width="70dp"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="6dp"
+                    android:clickable="true"
+                    android:text="@string/read_reviews"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+</LinearLayout>
