@@ -75,49 +75,49 @@ Below are selected screenshots from the **ProductKeeper** app, showcasing its ma
 
 ### 🔐 Sign In & Register
 <p align="center">
-  <img src="docs/screenshots/signin.png" width="200" />
-  <img src="docs/screenshots/signin-invalidpassword.png" width="200" />
-  <img src="docs/screenshots/signin-usedemail.png" width="200" />
-  <img src="docs/screenshots/registration.png" width="200" />
+  <img src="screenshots/signin.png" width="200" />
+  <img src="screenshots/signin-invalidpassword.png" width="200" />
+  <img src="screenshots/signin-usedemail.png" width="200" />
+  <img src="screenshots/registration.png" width="200" />
 </p>
 
 ---
 
 ### 🏠 Homepage & Filtering
 <p align="center">
-  <img src="docs/screenshots/homepage-1.png" width="200" />
-  <img src="docs/screenshots/homepage-2.png" width="200" />
-  <img src="docs/screenshots/homepage-3.png" width="200" />
-  <img src="docs/screenshots/homepage-4.png" width="200" />
-  <img src="docs/screenshots/homepage-5.png" width="200" />
-  <img src="docs/screenshots/homepage-6.png" width="200" />
-  <img src="docs/screenshots/homepage-7.png" width="200" />
-  <img src="docs/screenshots/homepage-8.png" width="200" />
-  <img src="docs/screenshots/filtering.png" width="200" />
+  <img src="screenshots/homepage-1.png" width="200" />
+  <img src="screenshots/homepage-2.png" width="200" />
+  <img src="screenshots/homepage-3.png" width="200" />
+  <img src="screenshots/homepage-4.png" width="200" />
+  <img src="screenshots/homepage-5.png" width="200" />
+  <img src="screenshots/homepage-6.png" width="200" />
+  <img src="screenshots/homepage-7.png" width="200" />
+  <img src="screenshots/homepage-8.png" width="200" />
+  <img src="screenshots/filtering.png" width="200" />
 </p>
 
 ---
 
 ### 🔍 Search Functionality
 <p align="center">
-  <img src="docs/screenshots/search-1.png" width="200" />
-  <img src="docs/screenshots/search-2.png" width="200" />
-  <img src="docs/screenshots/search-3.png" width="200" />
-  <img src="docs/screenshots/search-4.png" width="200" />
-  <img src="docs/screenshots/search-5.png" width="200" />
-  <img src="docs/screenshots/search-6.png" width="200" />
+  <img src="screenshots/search-1.png" width="200" />
+  <img src="screenshots/search-2.png" width="200" />
+  <img src="screenshots/search-3.png" width="200" />
+  <img src="screenshots/search-4.png" width="200" />
+  <img src="screenshots/search-5.png" width="200" />
+  <img src="screenshots/search-6.png" width="200" />
 </p>
 
 ---
 
 ### 🛍️ Products List, Wishlist & Reviews
 <p align="center">
-  <img src="docs/screenshots/productslist.png" width="200" />
-  <img src="docs/screenshots/wishlist.png" width="200" />
-  <img src="docs/screenshots/reviews-1.png" width="200" />
-  <img src="docs/screenshots/reviews-2.png" width="200" />
-  <img src="docs/screenshots/reviews-3.png" width="200" />
-  <img src="docs/screenshots/reviews-4.png" width="200" />
+  <img src="screenshots/productslist.png" width="200" />
+  <img src="screenshots/wishlist.png" width="200" />
+  <img src="screenshots/reviews-1.png" width="200" />
+  <img src="screenshots/reviews-2.png" width="200" />
+  <img src="screenshots/reviews-3.png" width="200" />
+  <img src="screenshots/reviews-4.png" width="200" />
 </p>
 
 ---
